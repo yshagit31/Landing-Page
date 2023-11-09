@@ -1,0 +1,85 @@
+body{
+    color: white;
+    background:url(sony.jpg);
+    background-size: cover;
+}
+.icon i{
+    color: white;
+    padding: 1rem;
+    padding-left: 1.9rem;
+}
+.icon{
+    font-size: 1.3rem;
+}
+
+.logo
+{
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 1px;
+    margin-left: 4.5rem;
+    font-size: 1.1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+nav li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav li a:hover::after {
+    width: 100%;
+}
+ul{
+    text-align: right;
+    margin-left: 40rem; 
+}
+nav{
+    display: flex;
+   flex-grow: 1;
+}
+.front{
+    height: 60vh;
+    padding: 6rem;
+    padding-left: 2rem;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading{
+    width: 60%;
+    padding-top: 1rem;
+    font-size: 3.5rem;
+}
+.sub{
+    font-size: 1.5rem;
+}
+.Order{
+    padding: 5rem;
+}
+.Order a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white ;
+    padding: 0.7rem;
+}
+.Order a:hover{
+    background-color: white;
+    color: black;
+}
+
